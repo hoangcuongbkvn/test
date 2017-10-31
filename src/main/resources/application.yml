@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:  jdbc:mysql://127.0.0.1:3306/mydb
+    username: docker
+    password: docker
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      show-sql: true
+      hibernate:
+          ddl-auto: validate
+  thymeleafe:
+      cache: false

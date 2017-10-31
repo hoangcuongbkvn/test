@@ -1,0 +1,22 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+*.log
+*.lck
+
+# Gradle+Wrapper
+.gradle/
+build/
+
+# For eclipse
+.project
+.classpath
+.settings
+
+/target/
+/.settings/
+/.classpath
+/bin/
